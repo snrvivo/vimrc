@@ -24,7 +24,7 @@ let g:gruvbox_italic=1
 colorscheme gruvbox
 set background=light
 
-"Switch relative and absoluste line numbers for modes"
+"Switch relative and absolute line numbers for modes"
 :augroup numbertoggle
 :  autocmd!
 :  autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
